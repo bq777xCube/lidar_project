@@ -15,10 +15,10 @@ for row in json.loads((A/'provenance.json').read_text()):
  fig.suptitle(f'E{event}, кадр {row["frame"]}: {s[0]:.6f} м по номинальной оси N1',fontsize=17);fig.supxlabel('Настоящие сохраненные точки. Иллюстрация, не запись воспроизведения.',fontsize=11);save(fig,f'E{event}')
 d=json.loads((A/'chart_data.json').read_text());fig,ax=plt.subplots(1,2,figsize=(11,5),layout='constrained')
 for a,vals,title,ylim in [(ax[0],d['direct'],'Прямо проверенные наблюдения DETECT',(0,21)),(ax[1],d['gaps'],'Условные пропуски на подходе',(0,175))]:
- bars=a.bar(['Базовый вариант','Итоговое решение'],vals,color=['#a9a4b7','#6d3096'],width=.55);a.set_ylim(ylim);a.set_title(title,fontsize=13);a.set_ylabel('Число наблюдений' if a==ax[0] else 'Число условных пропусков');a.bar_label(bars,labels=[f'{v}/21' if a==ax[0] else str(v) for v in vals],padding=7,fontsize=17)
+ bars=a.bar(['Предыдущий вариант','Итоговое решение'],vals,color=['#a9a4b7','#6d3096'],width=.55);a.set_ylim(ylim);a.set_title(title,fontsize=13);a.set_ylabel('Число наблюдений' if a==ax[0] else 'Число условных пропусков');a.bar_label(bars,labels=[f'{v}/21' if a==ax[0] else str(v) for v in vals],padding=7,fontsize=17)
 fig.supxlabel('Известные предоставленные данные. Не общий recall и не независимый скрытый тест.',fontsize=11);save(fig,'quality')
 fig,ax=plt.subplots(figsize=(11,5),layout='constrained');x=np.arange(4)
-for delta,key,title,color in [(-.18,'baseline_age','Базовый вариант','#aaa5b8'),(.18,'candidate_age','Итоговое решение','#6d3096')]:
+for delta,key,title,color in [(-.18,'baseline_age','Предыдущий вариант','#aaa5b8'),(.18,'candidate_age','Итоговое решение','#6d3096')]:
  vals=[p[key]['p95'] for p in d['pairs']];bars=ax.bar(x+delta,vals,.35,label=title,color=color);ax.bar_label(bars,fmt='%.3f',padding=5,fontsize=11)
 ax.set_xticks(x,['16 байт, пара 1','16 байт, пара 2','26 байт, пара 1','26 байт, пара 2']);ax.set_ylim(0,100);ax.set_ylabel('p95 возраста результата, мс');ax.set_title('Возраст результата: ARM64 VM на Apple M4');ax.legend(loc='upper left',ncol=2);fig.supxlabel('В каждом запуске обоих вариантов: 500/500. i7 не измерен. Максимум итогового решения: 151.110 мс.',fontsize=11);save(fig,'latency')
 def diagram(name,title,boxes,edges,note):

@@ -1,6 +1,24 @@
 {
-  "status": "SEALED",
+  "status": "PUBLICATION_DOCS_REVISION_VERIFIED",
   "archives": {
+    "lct26_task5_colleague_ru.zip": {
+      "sha256": "be1ba974d655caa7b21e279c9613c33dd761b64891c7607137bd06b66c895d92",
+      "bytes": 37378245
+    },
+    "lct26_task5_solution_ru.zip": {
+      "sha256": "d33dced0c7d56ac7c037b3ac263ec7897984ba01bb85c1fca4bfe05fd8bacdee",
+      "bytes": 688741
+    },
+    "lct26_task5_validation_ru.tar.gz": {
+      "sha256": "fc193956e69f9c8b41aa07b4190d7ffa7a0262d98c2475ffe95eafdbcae913a9",
+      "bytes": 434740618
+    },
+    "lidar-near-v5-query-first-ru-amd64.tar.gz": {
+      "sha256": "d4a4091d61beb46708b237c9224782afeb85fbe43ac674b9dd70321a86a89119",
+      "bytes": 270422764
+    }
+  },
+  "sealed_parent_archives": {
     "lct26_task5_colleague_ru.zip": {
       "sha256": "2a1720a91a2cbf9cf6ffa72ffbdbdf2c33fbc683a54ce64cd408bddcc6a668fe",
       "bytes": 37376137
@@ -18,7 +36,9 @@
       "bytes": 270422764
     }
   },
-  "payload_manifest_sha256": "3f2f4a1e3732bf3a82579ee7054f9623953cf63c307876c809c7bfd83c701932",
-  "delivery_status_sha256": "aa7fdeeaeb662d2ea8795081f44cda8607f6c79a474ade46bd45deb938038b9c",
-  "scope": "Локальные файлы. Внешних публикаций и отправки формы нет."
+  "changes": "Уточнение подписи: предыдущий вариант = v4, итоговый = v5; v1 является исходной версией, но не участником этих измерений. Обновлены PDF, графики и сопроводительные тексты.",
+  "runtime_algorithm_config_scripts_unchanged": true,
+  "sealed_local_archives_unchanged": true,
+  "archive_member_hashes_verified": true,
+  "historical_validation_receipts": "В receipts сохранены результаты испытаний исходной запечатанной поставки; алгоритм не изменён, новая нагрузочная серия не выполнялась."
 }

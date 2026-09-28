@@ -1,0 +1,24 @@
+{
+  "status": "SEALED",
+  "archives": {
+    "lct26_task5_colleague_ru.zip": {
+      "sha256": "2a1720a91a2cbf9cf6ffa72ffbdbdf2c33fbc683a54ce64cd408bddcc6a668fe",
+      "bytes": 37376137
+    },
+    "lct26_task5_solution_ru.zip": {
+      "sha256": "3799e67a145463c23ecdff575b4a1d9f10c35d3ecddd1bf03679a17d93245055",
+      "bytes": 687915
+    },
+    "lct26_task5_validation_ru.tar.gz": {
+      "sha256": "b6fd4091d5c2f64952f6c0506a917eaa92851234bd113cf1f02a1e6fe920b1d2",
+      "bytes": 434739150
+    },
+    "lidar-near-v5-query-first-ru-amd64.tar.gz": {
+      "sha256": "d4a4091d61beb46708b237c9224782afeb85fbe43ac674b9dd70321a86a89119",
+      "bytes": 270422764
+    }
+  },
+  "payload_manifest_sha256": "3f2f4a1e3732bf3a82579ee7054f9623953cf63c307876c809c7bfd83c701932",
+  "delivery_status_sha256": "aa7fdeeaeb662d2ea8795081f44cda8607f6c79a474ade46bd45deb938038b9c",
+  "scope": "Локальные файлы. Внешних публикаций и отправки формы нет."
+}

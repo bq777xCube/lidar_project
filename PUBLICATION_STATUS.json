@@ -10,5 +10,8 @@
   "final_presentation": "NOT_READY",
   "cabinet_form": "NOT_SENT",
   "expert_access": "NOT_GRANTED_BY_THIS_OPERATION",
-  "current_upload_verification": "Состояние файлов и архива Release проверяется внешним publication receipt после отправки; наличие ссылок само по себе не доказывает загрузку."
+  "current_upload_verification": "Состояние файлов и архива Release проверяется внешним publication receipt после отправки; наличие ссылок само по себе не доказывает загрузку.",
+  "publication_documentation_revision": "В графиках и обзоре предыдущий вариант = v4, итоговый = v5. Исходный v1 не входит в данную серию измерений.",
+  "published_wrapper_archives_changed": true,
+  "runtime_image_and_reference_archives_unchanged": true
 }

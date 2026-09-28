@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+*.so
+build/
+install/
+log/
+demo_results/
+ru_validation_run/
+*.db3
+*.mcap
+*.zst
+*.tar.gz
+.env
+.DS_Store
+
+# Крупные пакеты публикуются в Releases.
+validation/archives/
+validation/solution/
+verification/
+*.zip
+*.tar
+.env.*

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "archives": {
+    "lidar-near-direct-v4-validation.tar.gz": "7cafe36d8be69addc682ada305d4fb5661885b00d14bf3c6d21c36cb472f7a75",
+    "lidar-near-direct-v4.tar.gz": "e8a207a8e5f588e344a9ae06e90e6be8658865fa10a5ca582a7978945d6b80f1",
+    "lidar-near-query-first-validation.tar.gz": "cb807a19518edc00d3e2ffaf2799b9ec9b7c981d3d60947d470bad2bc29b6c6e",
+    "lidar-near-query-first.tar.gz": "e66b093a46bb595d84bd2f1e09afc4c1c991d6585ff193154cf0b01bf80d407e"
+  }
+}

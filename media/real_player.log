@@ -1,0 +1,5 @@
+stdin is not a terminal device. Keyboard handling disabled.[INFO] [1790608593.717879459] [rosbag2_storage]: Opened database '/bags/input/doubleT_platform_0.db3' for READ_ONLY.
+[INFO] [1790608593.722333375] [rosbag2_player]: Set rate to 0.2
+[INFO] [1790608593.756012709] [rosbag2_player]: Sleep 1000000000 ns
+[INFO] [1790608594.762889959] [rosbag2_storage]: Opened database '/bags/input/doubleT_platform_0.db3' for READ_ONLY.
+[INFO] [1790608603.256231922] [rclcpp]: signal_handler(SIGINT/SIGTERM)

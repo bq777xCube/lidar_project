@@ -1,0 +1,8 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-09-28-15-16-30-581524-b7358f0cccc5-32
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [foreign_object_detector_node-1]: process started with pid [33]
+[foreign_object_detector_node-1] [INFO] [1790608592.131536375] [foreign_object_detector_node]: Sparse state reset; listening on /lidar_points, best-effort depth 1
+[foreign_object_detector_node-1] [INFO] [1790608596.975562085] [foreign_object_detector_node]: CLEAR; distance=-1.000 m
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [foreign_object_detector_node-1]: sending signal 'SIGINT' to process[foreign_object_detector_node-1]
+[INFO] [foreign_object_detector_node-1]: process has finished cleanly [pid 33]

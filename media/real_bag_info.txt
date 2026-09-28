@@ -1,0 +1,10 @@
+
+Files:             doubleT_platform_0.db3
+Bag size:          2.6 GiB
+Storage id:        sqlite3
+Duration:          34.419566186s
+Start:             Sep  2 2026 14:35:12.599450851 (1788359712.599450851)
+End:               Sep  2 2026 14:35:47.019017037 (1788359747.019017037)
+Messages:          345
+Topic information: Topic: /lidar_points | Type: sensor_msgs/msg/PointCloud2 | Count: 345 | Serialization Format: cdr
+

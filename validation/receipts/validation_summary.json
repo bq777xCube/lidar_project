@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "T0_records": 262,
+  "T3_records": 262,
+  "fallback_records": 262,
+  "baseline_tests": 40,
+  "far_checks": 1730,
+  "focused_tests": 12,
+  "E10_S2_first": 788,
+  "E10_S2_history": [
+    785,
+    787,
+    788
+  ],
+  "E10_B1_distance_m": 36.71913018010502,
+  "layouts": [
+    16,
+    26
+  ],
+  "seven_outputs": true,
+  "rollback_reset_malformed": true,
+  "network": "none",
+  "development_workspace_mounted": false,
+  "native_binary_exact_vs_v5": true,
+  "native_binary_sha256": "250357bf474f6d5bf91d0fd74b469b8788d76e386ec96b5a0da37595bbc26ee8",
+  "benchmark_repeated": false,
+  "platform": "linux/amd64 emulation Apple M4",
+  "native_i7": "UNMEASURED",
+  "harness_repairs": "Переменная DIRECT_INSTALLED задается только базовым сценарием; времена key_ms/compute_ms исключены из сравнения как в исходной проверке. Эталоны не менялись."
+}

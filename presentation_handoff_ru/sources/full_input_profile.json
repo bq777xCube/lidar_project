@@ -1,0 +1,2568 @@
+{
+  "backend": "macOS-26.3-arm64-arm-64bit",
+  "numpy": "2.3.5",
+  "rows": [
+    {
+      "key": "doubleT_obstacle_00082",
+      "input_points": 921600,
+      "coverage": "ALL_NONZERO_FINITE_WITHIN_180M",
+      "same_input_full_core_ms": {
+        "T0": {
+          "median": 70.46568748774007,
+          "p95": 75.4168545245193,
+          "p99": 76.62710453150794,
+          "max": 76.9296670332551
+        },
+        "direct03": {
+          "median": 75.69727051304653,
+          "p95": 91.22500050580129,
+          "p99": 95.31256732298061,
+          "max": 96.33445902727544
+        },
+        "operational": {
+          "median": 72.52802100265399,
+          "p95": 72.73338543018326,
+          "p99": 72.74041062919423,
+          "max": 72.74216692894697
+        },
+        "audit": {
+          "median": 75.96575003117323,
+          "p95": 77.04489593743347,
+          "p99": 77.192512730835,
+          "max": 77.22941692918539
+        }
+      },
+      "rescue_stage_ms": {
+        "direct03": {
+          "median": 4.751479427795857,
+          "p95": 5.858093471033499,
+          "p99": 6.102685065707192,
+          "max": 6.163832964375615
+        },
+        "operational": {
+          "median": 0.9499795851297677,
+          "p95": 1.1212188110221177,
+          "p99": 1.126143807778135,
+          "max": 1.1273750569671392
+        },
+        "audit": {
+          "median": 4.6573125291615725,
+          "p95": 4.832780716242269,
+          "p99": 4.8645888979081064,
+          "max": 4.872540943324566
+        }
+      },
+      "paired_added_ms": {
+        "direct03": {
+          "median": 5.248458532150835,
+          "p95": 15.933427232084796,
+          "p99": 18.710519041633237,
+          "max": 19.404791994020343
+        },
+        "operational": {
+          "median": 1.5578335151076317,
+          "p95": 2.8093849832657725,
+          "p99": 2.9653097793925554,
+          "max": 3.004290978424251
+        },
+        "audit": {
+          "median": 5.653229483868927,
+          "p95": 6.496031302958727,
+          "p99": 6.534706335514784,
+          "max": 6.544375093653798
+        }
+      },
+      "profiles_excluded_from_timing": {
+        "direct03": {
+          "beam_screen_calls": [
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 2321,
+              "bytes": 55704
+            }
+          ],
+          "beam_screen_points": 346385,
+          "full_core_traced_peak_bytes": 62559213,
+          "count": 0
+        },
+        "operational": {
+          "beam_screen_calls": [
+            {
+              "points": 95,
+              "bytes": 2280
+            }
+          ],
+          "beam_screen_points": 95,
+          "full_core_traced_peak_bytes": 62558929,
+          "count": null
+        },
+        "audit": {
+          "beam_screen_calls": [
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 2321,
+              "bytes": 55704
+            }
+          ],
+          "beam_screen_points": 346385,
+          "full_core_traced_peak_bytes": 62557889,
+          "count": 0
+        }
+      },
+      "all_four_variant_full_semantics": "PASS"
+    },
+    {
+      "key": "synthetic_00808",
+      "input_points": 307200,
+      "coverage": "FULL_INDEXED_RAW_MESSAGE",
+      "same_input_full_core_ms": {
+        "T0": {
+          "median": 47.557708516251296,
+          "p95": 47.83832296379842,
+          "p99": 47.847664571600035,
+          "max": 47.84999997355044
+        },
+        "direct03": {
+          "median": 49.69720798544586,
+          "p95": 61.239239934366196,
+          "p99": 64.1066151089035,
+          "max": 64.82345890253782
+        },
+        "operational": {
+          "median": 47.93662496376783,
+          "p95": 48.93114572041668,
+          "p99": 49.07042908598669,
+          "max": 49.10524992737919
+        },
+        "audit": {
+          "median": 50.01435452140868,
+          "p95": 50.50321918679401,
+          "p99": 50.573410966899246,
+          "max": 50.590958911925554
+        }
+      },
+      "rescue_stage_ms": {
+        "direct03": {
+          "median": 2.480541472323239,
+          "p95": 2.561833243817091,
+          "p99": 2.5686330161988735,
+          "max": 2.570332959294319
+        },
+        "operational": {
+          "median": 0.49404200399294496,
+          "p95": 0.5026035069022328,
+          "p99": 0.5026534956414253,
+          "max": 0.5026659928262234
+        },
+        "audit": {
+          "median": 2.4908334016799927,
+          "p95": 2.64287501340732,
+          "p99": 2.676775015424937,
+          "max": 2.6852500159293413
+        }
+      },
+      "paired_added_ms": {
+        "direct03": {
+          "median": 1.9483119831420481,
+          "p95": 13.753135659499094,
+          "p99": 16.63989424123429,
+          "max": 17.361583886668086
+        },
+        "operational": {
+          "median": 0.3228539717383683,
+          "p95": 1.2132080155424774,
+          "p99": 1.2842079973779619,
+          "max": 1.301957992836833
+        },
+        "audit": {
+          "median": 2.505104523152113,
+          "p95": 2.7610522229224443,
+          "p99": 2.782344026491046,
+          "max": 2.7876669773831964
+        }
+      },
+      "profiles_excluded_from_timing": {
+        "direct03": {
+          "beam_screen_calls": [
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 730,
+              "bytes": 17520
+            }
+          ],
+          "beam_screen_points": 180954,
+          "full_core_traced_peak_bytes": 32766646,
+          "count": 0
+        },
+        "operational": {
+          "beam_screen_calls": [],
+          "beam_screen_points": 0,
+          "full_core_traced_peak_bytes": 32765110,
+          "count": null
+        },
+        "audit": {
+          "beam_screen_calls": [
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 730,
+              "bytes": 17520
+            }
+          ],
+          "beam_screen_points": 180954,
+          "full_core_traced_peak_bytes": 32764718,
+          "count": 0
+        }
+      },
+      "all_four_variant_full_semantics": "PASS"
+    },
+    {
+      "key": "synthetic_00000",
+      "input_points": 307187,
+      "coverage": "FULL_ORIGINAL_XYZ",
+      "same_input_full_core_ms": {
+        "T0": {
+          "median": 52.032666571903974,
+          "p95": 53.32940598600544,
+          "p99": 53.63274759729393,
+          "max": 53.70858300011605
+        },
+        "direct03": {
+          "median": 54.33602101402357,
+          "p95": 54.76680176798254,
+          "p99": 54.78442676831037,
+          "max": 54.788833018392324
+        },
+        "operational": {
+          "median": 52.43718693964183,
+          "p95": 53.2036985096056,
+          "p99": 53.265806898707524,
+          "max": 53.281333995983005
+        },
+        "audit": {
+          "median": 54.49797952314839,
+          "p95": 55.26636424474418,
+          "p99": 55.272339237853885,
+          "max": 55.27383298613131
+        }
+      },
+      "rescue_stage_ms": {
+        "direct03": {
+          "median": 2.4988119839690626,
+          "p95": 2.594312507426366,
+          "p99": 2.6096624962519854,
+          "max": 2.6134999934583902
+        },
+        "operational": {
+          "median": 0.5223954794928432,
+          "p95": 0.5650623061228544,
+          "p99": 0.569278938928619,
+          "max": 0.5703330971300602
+        },
+        "audit": {
+          "median": 2.505854470655322,
+          "p95": 2.549864206230268,
+          "p99": 2.5596392049919814,
+          "max": 2.5620829546824098
+        }
+      },
+      "paired_added_ms": {
+        "direct03": {
+          "median": 2.2818545112386346,
+          "p95": 2.5248329620808363,
+          "p99": 2.546432940289378,
+          "max": 2.5518329348415136
+        },
+        "operational": {
+          "median": 0.35710394149646163,
+          "p95": 0.9661036892794073,
+          "p99": 1.0045534814707935,
+          "max": 1.01416592951864
+        },
+        "audit": {
+          "median": 2.4943544412963092,
+          "p95": 3.0038747645448893,
+          "p99": 3.0663413868751377,
+          "max": 3.0819580424576998
+        }
+      },
+      "profiles_excluded_from_timing": {
+        "direct03": {
+          "beam_screen_calls": [
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 1687,
+              "bytes": 40488
+            }
+          ],
+          "beam_screen_points": 173719,
+          "full_core_traced_peak_bytes": 31496606,
+          "count": 0
+        },
+        "operational": {
+          "beam_screen_calls": [],
+          "beam_screen_points": 0,
+          "full_core_traced_peak_bytes": 31493546,
+          "count": null
+        },
+        "audit": {
+          "beam_screen_calls": [
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 1687,
+              "bytes": 40488
+            }
+          ],
+          "beam_screen_points": 173719,
+          "full_core_traced_peak_bytes": 31496014,
+          "count": 0
+        }
+      },
+      "all_four_variant_full_semantics": "PASS"
+    },
+    {
+      "key": "synthetic_00579",
+      "input_points": 301214,
+      "coverage": "FULL_ORIGINAL_XYZ",
+      "same_input_full_core_ms": {
+        "T0": {
+          "median": 50.97535450477153,
+          "p95": 51.19085396290757,
+          "p99": 51.23923717183061,
+          "max": 51.25133297406137
+        },
+        "direct03": {
+          "median": 53.54039545636624,
+          "p95": 53.9930212253239,
+          "p99": 53.99527141707949,
+          "max": 53.99583396501839
+        },
+        "operational": {
+          "median": 51.588312489911914,
+          "p95": 52.05970772658475,
+          "p99": 52.06267433823086,
+          "max": 52.06341599114239
+        },
+        "audit": {
+          "median": 54.00470847962424,
+          "p95": 55.928052053786814,
+          "p99": 56.41851045656949,
+          "max": 56.54112505726516
+        }
+      },
+      "rescue_stage_ms": {
+        "direct03": {
+          "median": 2.761249546892941,
+          "p95": 2.846688003046438,
+          "p99": 2.8518048056866974,
+          "max": 2.853084006346762
+        },
+        "operational": {
+          "median": 0.5779580678790808,
+          "p95": 0.6807708123233169,
+          "p99": 0.7007542240899056,
+          "max": 0.7057500770315528
+        },
+        "audit": {
+          "median": 2.8671874897554517,
+          "p95": 2.93891693581827,
+          "p99": 2.9463169223163277,
+          "max": 2.948166918940842
+        }
+      },
+      "paired_added_ms": {
+        "direct03": {
+          "median": 2.741749573033303,
+          "p95": 3.018281509866938,
+          "p99": 3.0210235330741853,
+          "max": 3.021709038875997
+        },
+        "operational": {
+          "median": 0.8937495877034962,
+          "p95": 1.0693432705011219,
+          "p99": 1.0734350595157593,
+          "max": 1.0744580067694187
+        },
+        "audit": {
+          "median": 3.105124516878277,
+          "p95": 5.002176854759455,
+          "p99": 5.425801873207092,
+          "max": 5.531708127819002
+        }
+      },
+      "profiles_excluded_from_timing": {
+        "direct03": {
+          "beam_screen_calls": [
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 3062,
+              "bytes": 73488
+            }
+          ],
+          "beam_screen_points": 183286,
+          "full_core_traced_peak_bytes": 33175562,
+          "count": 5128
+        },
+        "operational": {
+          "beam_screen_calls": [
+            {
+              "points": 2,
+              "bytes": 48
+            }
+          ],
+          "beam_screen_points": 2,
+          "full_core_traced_peak_bytes": 33172694,
+          "count": null
+        },
+        "audit": {
+          "beam_screen_calls": [
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 3062,
+              "bytes": 73488
+            }
+          ],
+          "beam_screen_points": 183286,
+          "full_core_traced_peak_bytes": 33173126,
+          "count": 5128
+        }
+      },
+      "all_four_variant_full_semantics": "PASS"
+    },
+    {
+      "key": "synthetic_00775",
+      "input_points": 307200,
+      "coverage": "FULL_ORIGINAL_XYZ",
+      "same_input_full_core_ms": {
+        "T0": {
+          "median": 46.082145534455776,
+          "p95": 46.544374723453075,
+          "p99": 46.58224132144824,
+          "max": 46.59170797094703
+        },
+        "direct03": {
+          "median": 48.917521024122834,
+          "p95": 49.265249457675964,
+          "p99": 49.29118264699355,
+          "max": 49.297665944322944
+        },
+        "operational": {
+          "median": 46.84543749317527,
+          "p95": 55.390385241480544,
+          "p99": 57.60987704270519,
+          "max": 58.164749993011355
+        },
+        "audit": {
+          "median": 48.99262444814667,
+          "p95": 49.11506251664832,
+          "p99": 49.14081251481548,
+          "max": 49.14725001435727
+        }
+      },
+      "rescue_stage_ms": {
+        "direct03": {
+          "median": 2.6947499718517065,
+          "p95": 2.7680315251927823,
+          "p99": 2.769539918517694,
+          "max": 2.7699170168489218
+        },
+        "operational": {
+          "median": 0.6924789631739259,
+          "p95": 0.7980627124197781,
+          "p99": 0.7999460794962943,
+          "max": 0.8004169212654233
+        },
+        "audit": {
+          "median": 2.7227289974689484,
+          "p95": 2.778729685815051,
+          "p99": 2.783713076496497,
+          "max": 2.784958924166858
+        }
+      },
+      "paired_added_ms": {
+        "direct03": {
+          "median": 2.6147294556722045,
+          "p95": 3.470009658485651,
+          "p99": 3.533701039850712,
+          "max": 3.549623885191977
+        },
+        "operational": {
+          "median": 0.8576874388381839,
+          "p95": 8.962396008428186,
+          "p99": 11.050912819337102,
+          "max": 11.573042022064328
+        },
+        "audit": {
+          "median": 2.8364169411361217,
+          "p95": 3.2008328998927027,
+          "p99": 3.2392328896094114,
+          "max": 3.2488328870385885
+        }
+      },
+      "profiles_excluded_from_timing": {
+        "direct03": {
+          "beam_screen_calls": [
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 1622,
+              "bytes": 38928
+            }
+          ],
+          "beam_screen_points": 190038,
+          "full_core_traced_peak_bytes": 34347626,
+          "count": 6
+        },
+        "operational": {
+          "beam_screen_calls": [
+            {
+              "points": 1,
+              "bytes": 24
+            },
+            {
+              "points": 1622,
+              "bytes": 38928
+            }
+          ],
+          "beam_screen_points": 1623,
+          "full_core_traced_peak_bytes": 34346526,
+          "count": null
+        },
+        "audit": {
+          "beam_screen_calls": [
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 1622,
+              "bytes": 38928
+            }
+          ],
+          "beam_screen_points": 190038,
+          "full_core_traced_peak_bytes": 34345322,
+          "count": 6
+        }
+      },
+      "all_four_variant_full_semantics": "PASS"
+    },
+    {
+      "key": "synthetic_00785",
+      "input_points": 307201,
+      "coverage": "FULL_ORIGINAL_XYZ",
+      "same_input_full_core_ms": {
+        "T0": {
+          "median": 49.1691249771975,
+          "p95": 49.67832291731611,
+          "p99": 49.68569810735062,
+          "max": 49.687541904859245
+        },
+        "direct03": {
+          "median": 52.06500005442649,
+          "p95": 52.20747951534577,
+          "p99": 52.22572950297035,
+          "max": 52.2302919998765
+        },
+        "operational": {
+          "median": 49.87491649808362,
+          "p95": 50.551218970213085,
+          "p99": 50.681177352089435,
+          "max": 50.71366694755852
+        },
+        "audit": {
+          "median": 51.93345854058862,
+          "p95": 52.277687325840816,
+          "p99": 52.347403921885416,
+          "max": 52.364833070896566
+        }
+      },
+      "rescue_stage_ms": {
+        "direct03": {
+          "median": 2.6282500475645065,
+          "p95": 2.724322461290285,
+          "p99": 2.7460308687295765,
+          "max": 2.7514579705893993
+        },
+        "operational": {
+          "median": 0.5689789541065693,
+          "p95": 0.6057297287043184,
+          "p99": 0.6128131120931357,
+          "max": 0.61458395794034
+        },
+        "audit": {
+          "median": 2.6243749889545143,
+          "p95": 2.6719789893832058,
+          "p99": 2.6774957950692624,
+          "max": 2.6788749964907765
+        }
+      },
+      "paired_added_ms": {
+        "direct03": {
+          "median": 2.788124547805637,
+          "p95": 3.1615205225534737,
+          "p99": 3.188104147557169,
+          "max": 3.194750053808093
+        },
+        "operational": {
+          "median": 0.5589995416812599,
+          "p95": 1.6995204496197402,
+          "p99": 1.7805704264901578,
+          "max": 1.8008329207077622
+        },
+        "audit": {
+          "median": 2.990541572216898,
+          "p95": 3.208947804523632,
+          "p99": 3.237089602043852,
+          "max": 3.2441250514239073
+        }
+      },
+      "profiles_excluded_from_timing": {
+        "direct03": {
+          "beam_screen_calls": [
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 2079,
+              "bytes": 49896
+            }
+          ],
+          "beam_screen_points": 182303,
+          "full_core_traced_peak_bytes": 33002706,
+          "count": 3
+        },
+        "operational": {
+          "beam_screen_calls": [
+            {
+              "points": 1,
+              "bytes": 24
+            }
+          ],
+          "beam_screen_points": 1,
+          "full_core_traced_peak_bytes": 33002258,
+          "count": null
+        },
+        "audit": {
+          "beam_screen_calls": [
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 2079,
+              "bytes": 49896
+            }
+          ],
+          "beam_screen_points": 182303,
+          "full_core_traced_peak_bytes": 33000722,
+          "count": 3
+        }
+      },
+      "all_four_variant_full_semantics": "PASS"
+    },
+    {
+      "key": "synthetic_00231",
+      "input_points": 280724,
+      "coverage": "FULL_INDEXED_RAW_MESSAGE",
+      "same_input_full_core_ms": {
+        "T0": {
+          "median": 5.5748539743945,
+          "p95": 5.661781207891181,
+          "p99": 5.679756175959483,
+          "max": 5.684249917976558
+        },
+        "direct03": {
+          "median": 5.539771053008735,
+          "p95": 5.620374693535268,
+          "p99": 5.636341287754476,
+          "max": 5.640332936309278
+        },
+        "operational": {
+          "median": 5.513562471605837,
+          "p95": 5.626010795822367,
+          "p99": 5.628435796825215,
+          "max": 5.629042047075927
+        },
+        "audit": {
+          "median": 5.637270514853299,
+          "p95": 5.81606273772195,
+          "p99": 5.830146151129156,
+          "max": 5.833667004480958
+        }
+      },
+      "rescue_stage_ms": {
+        "direct03": {
+          "median": 0.006812508217990398,
+          "p95": 0.00756300869397819,
+          "p99": 0.007679819827899337,
+          "max": 0.007709022611379623
+        },
+        "operational": {
+          "median": 0.006187998224049807,
+          "p95": 0.007385038770735264,
+          "p99": 0.007543456740677357,
+          "max": 0.00758306123316288
+        },
+        "audit": {
+          "median": 0.006228976417332888,
+          "p95": 0.0075517455115914345,
+          "p99": 0.007776753045618534,
+          "max": 0.007833004929125309
+        }
+      },
+      "paired_added_ms": {
+        "direct03": {
+          "median": 0.02477050293236971,
+          "p95": 0.08901068940758705,
+          "p99": 0.09423568844795227,
+          "max": 0.09554193820804358
+        },
+        "operational": {
+          "median": -0.004603411071002483,
+          "p95": 0.10245793964713812,
+          "p99": 0.10722435545176268,
+          "max": 0.10841595940291882
+        },
+        "audit": {
+          "median": 0.10406255023553967,
+          "p95": 0.23928197333589196,
+          "p99": 0.25805720360949636,
+          "max": 0.26275101117789745
+        }
+      },
+      "profiles_excluded_from_timing": {
+        "direct03": {
+          "beam_screen_calls": [],
+          "beam_screen_points": 0,
+          "full_core_traced_peak_bytes": 10380896,
+          "count": null
+        },
+        "operational": {
+          "beam_screen_calls": [],
+          "beam_screen_points": 0,
+          "full_core_traced_peak_bytes": 10380896,
+          "count": null
+        },
+        "audit": {
+          "beam_screen_calls": [],
+          "beam_screen_points": 0,
+          "full_core_traced_peak_bytes": 10380896,
+          "count": null
+        }
+      },
+      "all_four_variant_full_semantics": "PASS"
+    },
+    {
+      "key": "synthetic_00583",
+      "input_points": 313710,
+      "coverage": "FULL_INDEXED_RAW_MESSAGE",
+      "same_input_full_core_ms": {
+        "T0": {
+          "median": 54.01893751695752,
+          "p95": 54.762323008617386,
+          "p99": 54.83836458879523,
+          "max": 54.85737498383969
+        },
+        "direct03": {
+          "median": 58.06947947712615,
+          "p95": 58.43600974185392,
+          "p99": 58.51933475350961,
+          "max": 58.54016600642353
+        },
+        "operational": {
+          "median": 54.59079146385193,
+          "p95": 55.72751027648337,
+          "p99": 55.916702101239935,
+          "max": 55.964000057429075
+        },
+        "audit": {
+          "median": 58.82987548829988,
+          "p95": 59.483832941623405,
+          "p99": 59.51593290665187,
+          "max": 59.523957897908986
+        }
+      },
+      "rescue_stage_ms": {
+        "direct03": {
+          "median": 4.005896509625018,
+          "p95": 4.117582953767851,
+          "p99": 4.118449339875951,
+          "max": 4.1186659364029765
+        },
+        "operational": {
+          "median": 0.5005624843761325,
+          "p95": 0.5274582945276052,
+          "p99": 0.5341581127140671,
+          "max": 0.5358330672606826
+        },
+        "audit": {
+          "median": 4.111416987143457,
+          "p95": 4.199844290269539,
+          "p99": 4.204836109420285,
+          "max": 4.206084064207971
+        }
+      },
+      "paired_added_ms": {
+        "direct03": {
+          "median": 4.052937496453524,
+          "p95": 4.2172288813162595,
+          "p99": 4.2364456749055535,
+          "max": 4.241249873302877
+        },
+        "operational": {
+          "median": 0.30614540446549654,
+          "p95": 1.728853996610269,
+          "p99": 1.9342708110343667,
+          "max": 1.9856250146403909
+        },
+        "audit": {
+          "median": 4.71687491517514,
+          "p95": 5.240176804363728,
+          "p99": 5.291201826184988,
+          "max": 5.303958081640303
+        }
+      },
+      "profiles_excluded_from_timing": {
+        "direct03": {
+          "beam_screen_calls": [
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 7608,
+              "bytes": 182592
+            }
+          ],
+          "beam_screen_points": 196024,
+          "full_core_traced_peak_bytes": 35495482,
+          "count": 39643
+        },
+        "operational": {
+          "beam_screen_calls": [],
+          "beam_screen_points": 0,
+          "full_core_traced_peak_bytes": 35497406,
+          "count": null
+        },
+        "audit": {
+          "beam_screen_calls": [
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 7608,
+              "bytes": 182592
+            }
+          ],
+          "beam_screen_points": 196024,
+          "full_core_traced_peak_bytes": 35494330,
+          "count": 39643
+        }
+      },
+      "all_four_variant_full_semantics": "PASS"
+    },
+    {
+      "key": "synthetic_00634",
+      "input_points": 352977,
+      "coverage": "FULL_INDEXED_RAW_MESSAGE",
+      "same_input_full_core_ms": {
+        "T0": {
+          "median": 61.465145961847156,
+          "p95": 61.997582990443334,
+          "p99": 62.09118298138492,
+          "max": 62.114582979120314
+        },
+        "direct03": {
+          "median": 66.87639548908919,
+          "p95": 67.78245829627849,
+          "p99": 67.9191917006392,
+          "max": 67.95337505172938
+        },
+        "operational": {
+          "median": 62.52210447564721,
+          "p95": 63.578312256140634,
+          "p99": 63.723528845002875,
+          "max": 63.759832992218435
+        },
+        "audit": {
+          "median": 66.22116646030918,
+          "p95": 80.26570797665045,
+          "p99": 83.88747436692938,
+          "max": 84.79291596449912
+        }
+      },
+      "rescue_stage_ms": {
+        "direct03": {
+          "median": 4.888479481451213,
+          "p95": 5.014812690205872,
+          "p99": 5.018196091987193,
+          "max": 5.019041942432523
+        },
+        "operational": {
+          "median": 0.6443540332838893,
+          "p95": 0.7145524432417005,
+          "p99": 0.7154776423703879,
+          "max": 0.7157089421525598
+        },
+        "audit": {
+          "median": 4.8100624699145555,
+          "p95": 4.911115305731073,
+          "p99": 4.915290308417752,
+          "max": 4.916334059089422
+        }
+      },
+      "paired_added_ms": {
+        "direct03": {
+          "median": 5.5459580034948885,
+          "p95": 6.329718831693754,
+          "p99": 6.518143852008507,
+          "max": 6.565250107087195
+        },
+        "operational": {
+          "median": 1.1192290112376213,
+          "p95": 2.3378435289487243,
+          "p99": 2.3649351438507438,
+          "max": 2.3717080475762486
+        },
+        "audit": {
+          "median": 4.71906247548759,
+          "p95": 19.025239249458537,
+          "p99": 22.528880665777255,
+          "max": 23.40479101985693
+        }
+      },
+      "profiles_excluded_from_timing": {
+        "direct03": {
+          "beam_screen_calls": [
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 1321,
+              "bytes": 31704
+            }
+          ],
+          "beam_screen_points": 230697,
+          "full_core_traced_peak_bytes": 41700352,
+          "count": 46466
+        },
+        "operational": {
+          "beam_screen_calls": [
+            {
+              "points": 109,
+              "bytes": 2616
+            }
+          ],
+          "beam_screen_points": 109,
+          "full_core_traced_peak_bytes": 41700628,
+          "count": null
+        },
+        "audit": {
+          "beam_screen_calls": [
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 8192,
+              "bytes": 196608
+            },
+            {
+              "points": 1321,
+              "bytes": 31704
+            }
+          ],
+          "beam_screen_points": 230697,
+          "full_core_traced_peak_bytes": 41699492,
+          "count": 46466
+        }
+      },
+      "all_four_variant_full_semantics": "PASS"
+    }
+  ],
+  "method": "Complete XYZ; independent states; 2 warm plus6 alternating-order trials; all preprocessing included; tracing excluded from timing. No compact inputs timed."
+}

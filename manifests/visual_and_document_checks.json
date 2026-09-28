@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "png_assets_checked": [
+    "E1",
+    "E9",
+    "E10",
+    "quality",
+    "latency",
+    "pipeline",
+    "deployment"
+  ],
+  "pdf_pages_checked": 5,
+  "video_samples_checked": [
+    "real",
+    "synthetic"
+  ],
+  "template_slides_checked": [
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "template_unchanged": true,
+  "template_note": "Проверен состав по XML и рендеру LibreOffice; оригинал PPTX без изменений. Финальные шрифты/слайды проверяет коллега в PowerPoint.",
+  "markdown_links_checked": 8,
+  "editorial": "Публичные тексты и графики говорят об итоговом решении. Версии оставлены в техническом происхождении и командах."
+}

@@ -1,0 +1,11 @@
+*
+!Dockerfile
+!src/
+!src/**
+!docker/
+!docker/**
+!transport/
+!transport/**
+**/__pycache__
+**/*.pyc
+**/*.so

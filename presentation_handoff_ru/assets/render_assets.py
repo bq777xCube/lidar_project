@@ -1,31 +1,53 @@
-"""Повторная отрисовка научных графиков из приложенных данных; без выдуманных точек."""
+"""Редакционные иллюстрации из сохранённых точек и результатов. Детектор не запускается."""
 from pathlib import Path
-import json,numpy as np
+import json,hashlib,csv
+import numpy as np
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-A=Path(__file__).resolve().parent
-plt.rcParams.update({'font.family':'DejaVu Sans','font.size':12,'svg.fonttype':'none','axes.spines.top':False,'axes.spines.right':False,'figure.facecolor':'white'})
-def save(fig,name):
- fig.savefig(A/(name+'.png'),dpi=160,bbox_inches='tight');fig.savefig(A/(name+'.svg'),bbox_inches='tight');plt.close(fig)
-for row in json.loads((A/'provenance.json').read_text()):
- event=row['event'];z=np.load(A/f'E{event}_points.npz');p=z['N1'];s=z['selected_N1'];fig,axs=plt.subplots(1,2,figsize=(12,5),gridspec_kw={'width_ratios':[1.8,1]},layout='constrained')
- axs[0].scatter(p[:,0],p[:,1],s=1,c='#a7a6b2',rasterized=True);axs[0].scatter(s[0],s[1],s=110,c='#e90050',marker='*',label='Выбранная точка');axs[0].set(xlim=(0,110),ylim=(-6,6),xlabel='Продольная координата N1, м',ylabel='Поперечная координата N1, м');axs[0].legend(loc='lower left')
- c=p[abs(p[:,0]-s[0])<3];axs[1].scatter(c[:,1],c[:,2],s=4,c='#635382');axs[1].scatter(s[1],s[2],s=110,c='#e90050',marker='*');axs[1].set(xlim=(-3,3),ylim=(-1,5),xlabel='Поперечная координата N1, м',ylabel='Высота N1, м',title='Срез ±3 м по продольной оси');axs[1].set_aspect('equal')
- fig.suptitle(f'E{event}, кадр {row["frame"]}: {s[0]:.6f} м по номинальной оси N1',fontsize=17);fig.supxlabel('Настоящие сохраненные точки. Иллюстрация, не запись воспроизведения.',fontsize=11);save(fig,f'E{event}')
-d=json.loads((A/'chart_data.json').read_text());fig,ax=plt.subplots(1,2,figsize=(11,5),layout='constrained')
-for a,vals,title,ylim in [(ax[0],d['direct'],'Прямо проверенные наблюдения DETECT',(0,21)),(ax[1],d['gaps'],'Условные пропуски на подходе',(0,175))]:
- bars=a.bar(['Предыдущий вариант','Итоговое решение'],vals,color=['#a9a4b7','#6d3096'],width=.55);a.set_ylim(ylim);a.set_title(title,fontsize=13);a.set_ylabel('Число наблюдений' if a==ax[0] else 'Число условных пропусков');a.bar_label(bars,labels=[f'{v}/21' if a==ax[0] else str(v) for v in vals],padding=7,fontsize=17)
-fig.supxlabel('Известные предоставленные данные. Не общий recall и не независимый скрытый тест.',fontsize=11);save(fig,'quality')
-fig,ax=plt.subplots(figsize=(11,5),layout='constrained');x=np.arange(4)
-for delta,key,title,color in [(-.18,'baseline_age','Предыдущий вариант','#aaa5b8'),(.18,'candidate_age','Итоговое решение','#6d3096')]:
- vals=[p[key]['p95'] for p in d['pairs']];bars=ax.bar(x+delta,vals,.35,label=title,color=color);ax.bar_label(bars,fmt='%.3f',padding=5,fontsize=11)
-ax.set_xticks(x,['16 байт, пара 1','16 байт, пара 2','26 байт, пара 1','26 байт, пара 2']);ax.set_ylim(0,100);ax.set_ylabel('p95 возраста результата, мс');ax.set_title('Возраст результата: ARM64 VM на Apple M4');ax.legend(loc='upper left',ncol=2);fig.supxlabel('В каждом запуске обоих вариантов: 500/500. i7 не измерен. Максимум итогового решения: 151.110 мс.',fontsize=11);save(fig,'latency')
-def diagram(name,title,boxes,edges,note):
- fig,ax=plt.subplots(figsize=(12,6));ax.set_xlim(0,12);ax.set_ylim(0,6);ax.axis('off');ax.set_title(title,fontsize=20,pad=15)
- for x,y,text in boxes:ax.text(x,y,text,ha='center',va='center',fontsize=13,bbox=dict(boxstyle='round,pad=.6',facecolor='#f2eef7',edgecolor='#6d3096'))
- for x1,y1,x2,y2 in edges:ax.annotate('',xy=(x2,y2),xytext=(x1,y1),arrowprops=dict(arrowstyle='->',color='#6d3096',lw=1.7))
- fig.text(.5,.05,note,ha='center',fontsize=11);save(fig,name)
-diagram('pipeline','Схема алгоритма',[(1.5,4.5,'PointCloud2\nXYZ по полям'),(5.7,4.5,'Геометрия рельсов\nГабарит + S2'),(5.7,2.5,'Согласованность лучей\nДальний канал + B1/B2'),(10.2,3.5,'Решение\n7 ROS-выходов')],[(2.8,4.5,4,4.5),(2.5,4,4,2.8),(7.5,4.5,9,3.8),(7.5,2.5,9,3.2),(5.7,3.9,5.7,3.1)],'A/+5 м выключен. B1 использует GOOD-геометрию. B2 сохраняет правило N1.')
-diagram('deployment','Демонстрация в одном контейнере',[(1.4,4.5,'Bag\nтолько чтение'),(5.4,4.5,'Проверка topic\nГотовность узла'),(9.8,4.5,'ros2 bag play\n0.2x / 0.1x'),(9.8,2,'Установленный\nдетектор'),(4.3,2,'Наблюдатель DDS\nОблако и 7 выходов')],[(2.5,4.5,3.9,4.5),(6.9,4.5,8.4,4.5),(9.8,3.8,9.8,2.7),(8.3,2,6,2)],'linux/amd64 на M4: эмуляция, не оценка i7. --shm-size=256m, прежний Fast DDS.')
-print('Готовы PNG и редактируемые SVG')
+from matplotlib.patches import FancyBboxPatch
+A=Path(__file__).resolve().parent;H=A.parent
+plt.rcParams.update({'font.family':'DejaVu Sans','font.size':12,'svg.fonttype':'none','svg.hashsalt':'presentation02','axes.spines.top':False,'axes.spines.right':False,'figure.facecolor':'white'})
+PURPLE='#693397';PINK='#ce2871';GREY='#bac0cd';DARK='#282b3f'
+def save(fig,n):
+ fig.savefig(A/(n+'.png'),dpi=180,bbox_inches='tight');fig.savefig(A/(n+'.svg'),bbox_inches='tight',metadata={'Date':None});plt.close(fig)
+annotations=json.loads((H/'sources/object_annotations.json').read_text());original=json.loads((H/'technical/comparison_assets/provenance.json').read_text());provenance=[]
+names={1:'Крупное препятствие',9:'Низкое препятствие поперёк пути',10:'Тонкий подвешенный предмет'}
+for r in annotations:
+ e=r['event'];z=np.load(A/f'E{e}_points.npz');q=z['N1'];ids=z['source_indices'];s=z['selected_N1'];mask=np.isin(ids,r['reference_indices']);obj=q[mask]
+ assert mask.sum()==len(r['reference_indices']) and int(z['selected_source_index']) in r['reference_indices']
+ fig,axs=plt.subplots(2,1,figsize=(5.1,6.8),gridspec_kw={'height_ratios':[.9,1.15]},layout='constrained')
+ ax=axs[0];ax.scatter(q[:,0],q[:,1],s=1.3,c=GREY,alpha=.8,rasterized=True);ax.scatter(obj[:,0],obj[:,1],s=17,c=PINK,zorder=3);ax.scatter(s[0],s[1],s=115,marker='*',c='#f8b940',edgecolors=DARK,linewidths=.75,zorder=4)
+ ax.set(xlim=(0,110),ylim=(-6,6),xlabel='Продольная координата, м',ylabel='Поперечная координата, м',title='Общий вид облака')
+ ax.set_xticks([0,25,50,75,100]);ax.set_yticks([-5,0,5]);ax.grid(alpha=.13)
+ ax=axs[1];local=q[np.abs(q[:,0]-s[0])<3]
+ ax.scatter(local[:,1],local[:,2],s=8,c=GREY,alpha=.8,rasterized=True);ax.scatter(obj[:,1],obj[:,2],s=25,c=PINK,zorder=3);ax.scatter(s[1],s[2],s=160,marker='*',c='#f8b940',edgecolors=DARK,linewidths=.8,zorder=4)
+ center=(obj.min(0)+obj.max(0))/2;span=max(np.ptp(obj[:,1]),np.ptp(obj[:,2]),.7)+.8
+ ax.set(xlim=(center[1]-span/2,center[1]+span/2),ylim=(center[2]-span/2,center[2]+span/2),xlabel='Поперечная координата, м',ylabel='Высота над номинальной\nплоскостью, м',title='Увеличенный фрагмент')
+ ax.set_aspect('equal');ax.grid(alpha=.15);ax.tick_params(labelsize=10)
+ save(fig,f'E{e}')
+ p=next(x for x in original if x['event']==e);provenance.append({**p,'scenario_name':names[e],'scenario_source':'sources/scenarios.json','plotted_reference_point_count':len(obj),'object_annotation_source':r,'annotation_is_runtime_segmentation':False,'selected_marker':'Золотая звезда с тёмным контуром','object_marker':'Малиновые точки из сохранённой поясняющей разметки','height_axis':'Высота над калиброванной номинальной плоскостью; не высота над измеренными рельсами на дальности объекта','zoom_limits':{'lateral':[float(center[1]-span/2),float(center[1]+span/2)],'height':[float(center[2]-span/2),float(center[2]+span/2)]},'npz_sha256':hashlib.sha256((A/f'E{e}_points.npz').read_bytes()).hexdigest(),'generator':'assets/render_assets.py'})
+(A/'provenance.json').write_text(json.dumps(provenance,ensure_ascii=False,indent=2)+'\n')
+def flow(name,labels):
+ fig,ax=plt.subplots(figsize=(13,2.0));ax.set(xlim=(0,13),ylim=(0,2));ax.axis('off');w=11.7/len(labels);gap=.3
+ for i,t in enumerate(labels):
+  x=.2+i*(w+gap);ax.add_patch(FancyBboxPatch((x,.37),w-.13,1.2,boxstyle='round,pad=.03,rounding_size=.12',facecolor='#f2edf8',edgecolor='#aa8ac6',linewidth=1.3));ax.text(x+(w-.13)/2,.97,t,ha='center',va='center',fontsize=14,color=DARK)
+  if i<len(labels)-1:ax.annotate('',(x+w+gap-.09,.97),(x+w-.02,.97),arrowprops={'arrowstyle':'->','color':PURPLE,'lw':1.8})
+ save(fig,name)
+flow('product_flow',['Лидар','Обработка\nоблака','Проверка зоны\nдвижения','Обнаружение\nи расстояние'])
+flow('integration',['Docker\nс ROS 2 Humble','Запись ROS 2 bag\nили поток лидара','Признак препятствия,\nрасстояние и состояние'])
+# Схема отражает два параллельных пути к общему результату, а не фиктивную последовательность.
+fig,ax=plt.subplots(figsize=(13,4));ax.set(xlim=(0,13),ylim=(0,4));ax.axis('off')
+def box(x,y,w,h,t):
+ ax.add_patch(FancyBboxPatch((x,y),w,h,boxstyle='round,pad=.04,rounding_size=.1',facecolor='#f2edf8',edgecolor='#aa8ac6'));ax.text(x+w/2,y+h/2,t,ha='center',va='center',fontsize=13,color=DARK)
+def arrow(a,b):ax.annotate('',b,a,arrowprops={'arrowstyle':'->','color':PURPLE,'lw':1.8})
+box(.15,1.5,1.5,1,'Текущее\nоблако');box(2.3,2.5,2.6,1.1,'Геометрия рельсов\nи зона движения');box(5.6,2.5,3.0,1.1,'Проверка точек\nи подтверждение\nво времени');box(2.3,.2,3.0,1.25,'Сопоставление точек\nсо структурой лучей');box(6,.2,2.6,1.25,'Дальние примеры\nи поддержка\nпри приближении');box(10.1,1.4,2.5,1.2,'Результат\nи состояние')
+for a,b in [((1.65,2.1),(2.3,3.05)),((1.65,1.8),(2.3,.8)),((4.9,3.05),(5.6,3.05)),((5.3,.8),(6,.8)),((8.6,3.05),(10.1,2.2)),((8.6,.8),(10.1,1.8)),((4.9,2.6),(6,1.45))]:arrow(a,b)
+save(fig,'algorithm')
+d=json.loads((H/'sources/delivery_evaluation.json').read_text())['query_T3']['pairs'];rows=[]
+for i,x in enumerate(d,1):rows.append({'run':i,'point_step_bytes':x['layout'],'input_hz':10,'offered':500,'completed':x['candidate_completed'],'p95_ms':x['candidate_age']['p95'],'max_ms':x['candidate_age']['max'],'over_100ms':x['deadline_misses']['candidate']})
+metrics={'platform':'Linux ARM64 VM на Apple M4','latency_definition':'От публикации входа до завершения callback установленного узла; не до получения всеми потребителями','runs':rows,'max_ms':max(x['max_ms'] for x in rows),'reviewed_detect':{'hits':13,'observations':21},'reviewed_ignore':{'alarms':2,'observations':12},'background':{'positive':4,'inputs':702},'real_controls':{'positive':0,'inputs':193},'unknown_frames':[775,776,777,778,792,793],'sources':['sources/delivery_evaluation.json','sources/evaluation.json','sources/v3_competition_integration.json','sources/summary.json']}
+(A/'final_metrics.json').write_text(json.dumps(metrics,ensure_ascii=False,indent=2)+'\n')
+with (A/'performance.csv').open('w') as f:
+ out=csv.DictWriter(f,fieldnames=list(rows[0]));out.writeheader();out.writerows(rows)
+print('Готовы реальные облака, схемы, метрики и происхождение данных')

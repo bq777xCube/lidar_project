@@ -21,7 +21,98 @@
         -1,
         5
       ]
-    }
+    },
+    "scenario_name": "Крупное препятствие",
+    "scenario_source": "sources/scenarios.json",
+    "plotted_reference_point_count": 63,
+    "object_annotation_source": {
+      "event": 1,
+      "frame": 0,
+      "reference_indices": [
+        307129,
+        307136,
+        307130,
+        307143,
+        307137,
+        307124,
+        307150,
+        307144,
+        307131,
+        307125,
+        307157,
+        307151,
+        307138,
+        307164,
+        307132,
+        307126,
+        307158,
+        307145,
+        307139,
+        307171,
+        307133,
+        307165,
+        307127,
+        307152,
+        307146,
+        307178,
+        307140,
+        307172,
+        307134,
+        307159,
+        307128,
+        307153,
+        307147,
+        307185,
+        307179,
+        307141,
+        307166,
+        307135,
+        307160,
+        307186,
+        307154,
+        307148,
+        307173,
+        307142,
+        307167,
+        307161,
+        307155,
+        307180,
+        307149,
+        307174,
+        307168,
+        307162,
+        307156,
+        307181,
+        307175,
+        307169,
+        307163,
+        307182,
+        307176,
+        307170,
+        307183,
+        307177,
+        307184
+      ],
+      "source": "reports/near_end_to_end.json:frames.target.reference_indices",
+      "source_sha256": "bcbd872ddd0352bf09adf97ac33b3c510d0620f0a654537d3e49ef8033f2950a",
+      "purpose": "Поясняющая разметка объекта, не выход runtime-сегментации"
+    },
+    "annotation_is_runtime_segmentation": false,
+    "selected_marker": "Золотая звезда с тёмным контуром",
+    "object_marker": "Малиновые точки из сохранённой поясняющей разметки",
+    "height_axis": "Высота над калиброванной номинальной плоскостью; не высота над измеренными рельсами на дальности объекта",
+    "zoom_limits": {
+      "lateral": [
+        -1.033847840074101,
+        1.4918335789376778
+      ],
+      "height": [
+        0.061637359903960354,
+        2.587318778915739
+      ]
+    },
+    "npz_sha256": "9b5a20396222350dcb3f34c3efdf711a453bafba1e5bc9ed6ea20d365404988a",
+    "generator": "assets/render_assets.py"
   },
   {
     "event": 9,
@@ -45,7 +136,43 @@
         -1,
         5
       ]
-    }
+    },
+    "scenario_name": "Низкое препятствие поперёк пути",
+    "scenario_source": "sources/scenarios.json",
+    "plotted_reference_point_count": 8,
+    "object_annotation_source": {
+      "event": 9,
+      "frame": 686,
+      "reference_indices": [
+        307200,
+        307199,
+        307198,
+        307197,
+        307204,
+        307203,
+        307202,
+        307201
+      ],
+      "source": "reports/near_end_to_end.json:frames.target.reference_indices",
+      "source_sha256": "bcbd872ddd0352bf09adf97ac33b3c510d0620f0a654537d3e49ef8033f2950a",
+      "purpose": "Поясняющая разметка объекта, не выход runtime-сегментации"
+    },
+    "annotation_is_runtime_segmentation": false,
+    "selected_marker": "Золотая звезда с тёмным контуром",
+    "object_marker": "Малиновые точки из сохранённой поясняющей разметки",
+    "height_axis": "Высота над калиброванной номинальной плоскостью; не высота над измеренными рельсами на дальности объекта",
+    "zoom_limits": {
+      "lateral": [
+        -1.4774801738850627,
+        1.1494283452027392
+      ],
+      "height": [
+        -0.8555353773613104,
+        1.7713731417264915
+      ]
+    },
+    "npz_sha256": "f3bf8cabd32c12ac68d9d3cf836fcb34e9876175d961002e181888ca1d64a8e0",
+    "generator": "assets/render_assets.py"
   },
   {
     "event": 10,
@@ -69,6 +196,37 @@
         -1,
         5
       ]
-    }
+    },
+    "scenario_name": "Тонкий подвешенный предмет",
+    "scenario_source": "sources/scenarios.json",
+    "plotted_reference_point_count": 3,
+    "object_annotation_source": {
+      "event": 10,
+      "frame": 763,
+      "reference_indices": [
+        307198,
+        307197,
+        307196
+      ],
+      "source": "reports/near_end_to_end.json:frames.target.reference_indices",
+      "source_sha256": "bcbd872ddd0352bf09adf97ac33b3c510d0620f0a654537d3e49ef8033f2950a",
+      "purpose": "Поясняющая разметка объекта, не выход runtime-сегментации"
+    },
+    "annotation_is_runtime_segmentation": false,
+    "selected_marker": "Золотая звезда с тёмным контуром",
+    "object_marker": "Малиновые точки из сохранённой поясняющей разметки",
+    "height_axis": "Высота над калиброванной номинальной плоскостью; не высота над измеренными рельсами на дальности объекта",
+    "zoom_limits": {
+      "lateral": [
+        -0.7642370334111194,
+        0.7357629665888806
+      ],
+      "height": [
+        2.2549693720467223,
+        3.7549693720467223
+      ]
+    },
+    "npz_sha256": "c8a2c177a2db2d049444dc28974602ba5ef024fbed5851df56de5289655a6f5d",
+    "generator": "assets/render_assets.py"
   }
 ]

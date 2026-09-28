@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="739.8pt" height="236.16pt" viewBox="0 0 739.8 236.16" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 236.16 
+L 739.8 236.16 
+L 739.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 18.918 148.0176 
+L 95.922 148.0176 
+Q 101.502 148.0176 101.502 142.4736 
+L 101.502 93.6864 
+Q 101.502 88.1424 95.922 88.1424 
+L 18.918 88.1424 
+Q 13.338 88.1424 13.338 93.6864 
+L 13.338 142.4736 
+Q 13.338 148.0176 18.918 148.0176 
+z
+" clip-path="url(#peda0e96761)" style="fill: #f2edf8; stroke: #aa8ac6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 138.888 92.5776 
+L 277.272 92.5776 
+Q 282.852 92.5776 282.852 87.0336 
+L 282.852 32.7024 
+Q 282.852 27.1584 277.272 27.1584 
+L 138.888 27.1584 
+Q 133.308 27.1584 133.308 32.7024 
+L 133.308 87.0336 
+Q 133.308 92.5776 138.888 92.5776 
+z
+" clip-path="url(#peda0e96761)" style="fill: #f2edf8; stroke: #aa8ac6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 323.028 92.5776 
+L 483.732 92.5776 
+Q 489.312 92.5776 489.312 87.0336 
+L 489.312 32.7024 
+Q 489.312 27.1584 483.732 27.1584 
+L 323.028 27.1584 
+Q 317.448 27.1584 317.448 32.7024 
+L 317.448 87.0336 
+Q 317.448 92.5776 323.028 92.5776 
+z
+" clip-path="url(#peda0e96761)" style="fill: #f2edf8; stroke: #aa8ac6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 138.888 220.0896 
+L 299.592 220.0896 
+Q 305.172 220.0896 305.172 214.5456 
+L 305.172 151.8984 
+Q 305.172 146.3544 299.592 146.3544 
+L 138.888 146.3544 
+Q 133.308 146.3544 133.308 151.8984 
+L 133.308 214.5456 
+Q 133.308 220.0896 138.888 220.0896 
+z
+" clip-path="url(#peda0e96761)" style="fill: #f2edf8; stroke: #aa8ac6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 345.348 220.0896 
+L 483.732 220.0896 
+Q 489.312 220.0896 489.312 214.5456 
+L 489.312 151.8984 
+Q 489.312 146.3544 483.732 146.3544 
+L 345.348 146.3544 
+Q 339.768 146.3544 339.768 151.8984 
+L 339.768 214.5456 
+Q 339.768 220.0896 345.348 220.0896 
+z
+" clip-path="url(#peda0e96761)" style="fill: #f2edf8; stroke: #aa8ac6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 574.128 153.5616 
+L 706.932 153.5616 
+Q 712.512 153.5616 712.512 148.0176 
+L 712.512 88.1424 
+Q 712.512 82.5984 706.932 82.5984 
+L 574.128 82.5984 
+Q 568.548 82.5984 568.548 88.1424 
+L 568.548 148.0176 
+Q 568.548 153.5616 574.128 153.5616 
+z
+" clip-path="url(#peda0e96761)" style="fill: #f2edf8; stroke: #aa8ac6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #282b3f; font: 13px 'DejaVu Sans'" transform="translate(27.555547 114.388609)">Текущее</text>
+    <text style="fill: #282b3f; font: 13px 'DejaVu Sans'" transform="translate(33.392344 128.945766)">облако</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #282b3f; font: 13px 'DejaVu Sans'" transform="translate(141.629687 56.176609)">Геометрия рельсов</text>
+    <text style="fill: #282b3f; font: 13px 'DejaVu Sans'" transform="translate(149.270234 70.733766)">и зона движения</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #282b3f; font: 13px 'DejaVu Sans'" transform="translate(348.92625 48.898031)">Проверка точек</text>
+    <text style="fill: #282b3f; font: 13px 'DejaVu Sans'" transform="translate(341.803672 63.455187)">и подтверждение</text>
+    <text style="fill: #282b3f; font: 13px 'DejaVu Sans'" transform="translate(364.172812 78.012344)">во времени</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #282b3f; font: 13px 'DejaVu Sans'" transform="translate(145.100391 179.530609)">Сопоставление точек</text>
+    <text style="fill: #282b3f; font: 13px 'DejaVu Sans'" transform="translate(148.270156 194.087766)">со структурой лучей</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #282b3f; font: 13px 'DejaVu Sans'" transform="translate(352.192813 172.119188)">Дальние примеры</text>
+    <text style="fill: #282b3f; font: 13px 'DejaVu Sans'" transform="translate(369.143594 186.676344)">и поддержка</text>
+    <text style="fill: #282b3f; font: 13px 'DejaVu Sans'" transform="translate(352.333984 201.499188)">при приближении</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #282b3f; font: 13px 'DejaVu Sans'" transform="translate(605.766172 114.388609)">Результат</text>
+    <text style="fill: #282b3f; font: 13px 'DejaVu Sans'" transform="translate(598.968594 128.945766)">и состояние</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 100.405651 110.88691 
+Q 117.405624 86.201094 133.264181 63.172737 
+" style="fill: none; stroke: #693397; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 128.565112 65.764792 
+L 133.264181 63.172737 
+L 132.518383 68.487226 
+" style="fill: none; stroke: #693397; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 100.365804 130.842976 
+Q 117.404379 156.88705 133.341193 181.247045 
+" style="fill: none; stroke: #693397; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 132.721725 175.916354 
+L 133.341193 181.247045 
+L 128.70496 178.544205 
+" style="fill: none; stroke: #693397; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 282.61782 59.868 
+Q 300.146801 59.868 315.663322 59.868 
+" style="fill: none; stroke: #693397; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 310.863322 57.468 
+L 315.663322 59.868 
+L 310.863322 62.268 
+" style="fill: none; stroke: #693397; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 304.93782 184.608 
+Q 322.466801 184.608 337.983322 184.608 
+" style="fill: none; stroke: #693397; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 333.183322 182.208 
+L 337.983322 184.608 
+L 333.183322 187.008 
+" style="fill: none; stroke: #693397; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 488.824601 60.850229 
+Q 528.930674 83.43038 567.283118 105.023218 
+" style="fill: none; stroke: #693397; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 564.277907 100.577017 
+L 567.283118 105.023218 
+L 561.92303 104.759666 
+" style="fill: none; stroke: #693397; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 488.747972 183.503193 
+Q 528.929096 156.888599 567.432428 131.385317 
+" style="fill: none; stroke: #693397; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 562.105343 132.035066 
+L 567.432428 131.385317 
+L 564.755977 136.036834 
+" style="fill: none; stroke: #693397; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 282.008018 86.257748 
+Q 311.311048 116.695088 339.218323 145.682645 
+" style="fill: none; stroke: #693397; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 337.618223 140.560177 
+L 339.218323 145.682645 
+L 334.160288 143.889244 
+" style="fill: none; stroke: #693397; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="peda0e96761">
+   <rect x="7.2" y="7.2" width="725.4" height="221.76"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="739.8pt" height="125.28pt" viewBox="0 0 739.8 125.28" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 125.28 
+L 739.8 125.28 
+L 739.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 23.382 99.2304 
+L 169.299 99.2304 
+Q 175.995 99.2304 175.995 92.5776 
+L 175.995 36.0288 
+Q 175.995 29.376 169.299 29.376 
+L 23.382 29.376 
+Q 16.686 29.376 16.686 36.0288 
+L 16.686 92.5776 
+Q 16.686 99.2304 23.382 99.2304 
+z
+" clip-path="url(#p70c810c535)" style="fill: #f2edf8; stroke: #aa8ac6; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 203.337 99.2304 
+L 349.254 99.2304 
+Q 355.95 99.2304 355.95 92.5776 
+L 355.95 36.0288 
+Q 355.95 29.376 349.254 29.376 
+L 203.337 29.376 
+Q 196.641 29.376 196.641 36.0288 
+L 196.641 92.5776 
+Q 196.641 99.2304 203.337 99.2304 
+z
+" clip-path="url(#p70c810c535)" style="fill: #f2edf8; stroke: #aa8ac6; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 383.292 99.2304 
+L 529.209 99.2304 
+Q 535.905 99.2304 535.905 92.5776 
+L 535.905 36.0288 
+Q 535.905 29.376 529.209 29.376 
+L 383.292 29.376 
+Q 376.596 29.376 376.596 36.0288 
+L 376.596 92.5776 
+Q 376.596 99.2304 383.292 99.2304 
+z
+" clip-path="url(#p70c810c535)" style="fill: #f2edf8; stroke: #aa8ac6; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 563.247 99.2304 
+L 709.164 99.2304 
+Q 715.86 99.2304 715.86 92.5776 
+L 715.86 36.0288 
+Q 715.86 29.376 709.164 29.376 
+L 563.247 29.376 
+Q 556.551 29.376 556.551 36.0288 
+L 556.551 92.5776 
+Q 556.551 99.2304 563.247 99.2304 
+z
+" clip-path="url(#p70c810c535)" style="fill: #f2edf8; stroke: #aa8ac6; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #282b3f; font: 14px 'DejaVu Sans'; text-anchor: middle" x="96.3405" y="68.166325" transform="rotate(-0 96.3405 68.166325)">Лидар</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 182.461179 64.3032 
+Q 186.876151 64.3032 189.278662 64.3032 
+" style="fill: none; stroke: #693397; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 184.478662 61.9032 
+L 189.278662 64.3032 
+L 184.478662 66.7032 
+" style="fill: none; stroke: #693397; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <text style="fill: #282b3f; font: 14px 'DejaVu Sans'" transform="translate(236.538781 60.447075)">Обработка</text>
+    <text style="fill: #282b3f; font: 14px 'DejaVu Sans'" transform="translate(250.413 76.124013)">облака</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 362.416179 64.3032 
+Q 366.831151 64.3032 369.233662 64.3032 
+" style="fill: none; stroke: #693397; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 364.433662 61.9032 
+L 369.233662 64.3032 
+L 364.433662 66.7032 
+" style="fill: none; stroke: #693397; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="fill: #282b3f; font: 14px 'DejaVu Sans'" transform="translate(400.531594 60.327856)">Проверка зоны</text>
+    <text style="fill: #282b3f; font: 14px 'DejaVu Sans'" transform="translate(418.786281 76.004794)">движения</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 542.371179 64.3032 
+Q 546.786151 64.3032 549.188662 64.3032 
+" style="fill: none; stroke: #693397; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 544.388662 61.9032 
+L 549.188662 64.3032 
+L 544.388662 66.7032 
+" style="fill: none; stroke: #693397; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="fill: #282b3f; font: 14px 'DejaVu Sans'" transform="translate(584.879094 60.447075)">Обнаружение</text>
+    <text style="fill: #282b3f; font: 14px 'DejaVu Sans'" transform="translate(586.996594 76.124013)">и расстояние</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p70c810c535">
+   <rect x="7.2" y="7.2" width="725.4" height="110.88"/>
+  </clipPath>
+ </defs>
+</svg>

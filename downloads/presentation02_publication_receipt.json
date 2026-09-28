@@ -1,0 +1,29 @@
+{
+  "status": "PUBLISHED_VERIFIED",
+  "tag": "presentation-2026-09-28",
+  "commit": "0f888ed77fdcec949a6715f5bf4e6094cad03581",
+  "url": "https://github.com/bq777xCube/lidar_project/releases/tag/presentation-2026-09-28",
+  "published_at": "2026-09-28T16:23:43Z",
+  "assets": [
+    {
+      "name": "lct26_task5_colleague_presentation02.zip",
+      "sha256": "a1322dfdf8e09b4fa2bbfd92fb18516d6bddc1f36c52b80dc299d08283f89179",
+      "bytes": 38935534,
+      "download_url": "https://github.com/bq777xCube/lidar_project/releases/download/presentation-2026-09-28/lct26_task5_colleague_presentation02.zip"
+    },
+    {
+      "name": "SHA256SUMS",
+      "sha256": "0559cf240460ddcfcc20e5de39a1c4ebd187a45e1b122cd80ba9480e0623460f",
+      "bytes": 107,
+      "download_url": "https://github.com/bq777xCube/lidar_project/releases/download/presentation-2026-09-28/SHA256SUMS"
+    },
+    {
+      "name": "editorial_receipt.json",
+      "sha256": "47ad2477fc4d2eaf6c6dd4af2f70d7a9ade9ab272169524320b179ee9040acca",
+      "bytes": 1613,
+      "download_url": "https://github.com/bq777xCube/lidar_project/releases/download/presentation-2026-09-28/editorial_receipt.json"
+    }
+  ],
+  "old_release_assets_unchanged": true,
+  "private": true
+}

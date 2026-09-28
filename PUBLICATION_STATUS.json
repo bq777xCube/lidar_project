@@ -25,7 +25,10 @@
     "release": "https://github.com/bq777xCube/lidar_project/releases/tag/presentation-2026-09-28",
     "archive": "lct26_task5_colleague_presentation02.zip",
     "archive_sha256": "a1322dfdf8e09b4fa2bbfd92fb18516d6bddc1f36c52b80dc299d08283f89179",
-    "status": "UPLOAD_IN_PROGRESS",
-    "algorithm_changed": false
+    "status": "PUBLISHED_VERIFIED",
+    "algorithm_changed": false,
+    "published_at": "2026-09-28T16:23:43Z",
+    "commit": "0f888ed77fdcec949a6715f5bf4e6094cad03581",
+    "receipt": "downloads/presentation02_publication_receipt.json"
   }
 }

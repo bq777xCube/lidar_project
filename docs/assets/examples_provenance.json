@@ -1,0 +1,32 @@
+{
+  "E1": {
+    "source_npz": "E1_points.npz",
+    "source_sha256": "9b5a20396222350dcb3f34c3efdf711a453bafba1e5bc9ed6ea20d365404988a",
+    "frame": 0,
+    "selected_source_index": 307129,
+    "reference_point_count": 63,
+    "nominal_forward_m": 98.68354684514068,
+    "reference_highlight": "Поясняющая разметка объекта; не выход сегментации",
+    "star": "Фактическая выбранная точка детектора"
+  },
+  "E9": {
+    "source_npz": "E9_points.npz",
+    "source_sha256": "f3bf8cabd32c12ac68d9d3cf836fcb34e9876175d961002e181888ca1d64a8e0",
+    "frame": 686,
+    "selected_source_index": 307200,
+    "reference_point_count": 8,
+    "nominal_forward_m": 99.42150848853949,
+    "reference_highlight": "Поясняющая разметка объекта; не выход сегментации",
+    "star": "Фактическая выбранная точка детектора"
+  },
+  "E10": {
+    "source_npz": "E10_points.npz",
+    "source_sha256": "c8a2c177a2db2d049444dc28974602ba5ef024fbed5851df56de5289655a6f5d",
+    "frame": 763,
+    "selected_source_index": 307198,
+    "reference_point_count": 3,
+    "nominal_forward_m": 72.55873262034888,
+    "reference_highlight": "Поясняющая разметка объекта; не выход сегментации",
+    "star": "Фактическая выбранная точка детектора"
+  }
+}

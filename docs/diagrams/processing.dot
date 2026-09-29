@@ -1,0 +1,15 @@
+// Редактируемый исходник схемы. Рендеринг: dot -Tsvg файл.dot -o файл.svg
+digraph G {
+  graph [bgcolor="white", pad="0.28", nodesep="0.34", ranksep="0.62", splines=polyline, fontname="DejaVu Sans", fontsize=18, labelloc=t];
+  node [shape=box, style="rounded,filled", fillcolor="#F5F0FA", color="#7745A0", penwidth=1.3, fontname="DejaVu Sans", fontsize=13, margin="0.17,0.13"];
+  edge [color="#755589", penwidth=1.5, arrowsize=0.75, fontname="DejaVu Sans", fontsize=10, fontcolor="#51475A"];
+  rankdir=TB;
+  cloud [label="Полное текущее облако", fillcolor="#EAF1FA", color="#426C9E"];
+  context [label="Полная рельсовая геометрия, проекции и маски\nОсновной канал и S2 выполняются без изменений"];
+  select [label="Геометрический отбор для B1/B2\nТолько точки, способные дать подтверждение"];
+  beam [label="Точная проверка структуры лучей\nТолько на оставшихся точках"];
+  result [label="Принятые точки → расстояние → источник", fillcolor="#E7F4F0", color="#368475"];
+  audit [label="Полный диагностический подсчёт\nТолько по запросу аудита", style="rounded,dashed,filled", fillcolor="#F8F8FA", color="#9D95A7"];
+  cloud -> context -> select -> beam -> result;
+  cloud -> audit [style=dashed, label="не требуется для решения", color="#9D95A7"];
+}

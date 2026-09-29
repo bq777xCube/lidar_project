@@ -1,0 +1,23 @@
+// Редактируемый исходник схемы. Рендеринг: dot -Tsvg файл.dot -o файл.svg
+digraph G {
+  graph [bgcolor="white", pad="0.28", nodesep="0.34", ranksep="0.62", splines=polyline, fontname="DejaVu Sans", fontsize=18, labelloc=t];
+  node [shape=box, style="rounded,filled", fillcolor="#F5F0FA", color="#7745A0", penwidth=1.3, fontname="DejaVu Sans", fontsize=13, margin="0.17,0.13"];
+  edge [color="#755589", penwidth=1.5, arrowsize=0.75, fontname="DejaVu Sans", fontsize=10, fontcolor="#51475A"];
+  rankdir=TB; compound=true;
+  bag [label="Исходный ROS 2 bag\nНа диске проверяющего", fillcolor="#EAF1FA", color="#426C9E"];
+  script [label="scripts/demo_*.sh\nПроверка топика и готовности"];
+  subgraph cluster_container {
+    label="Один Docker-контейнер · ROS 2 Humble";
+    style="rounded"; color="#B8A7CA"; fontcolor="#4B246A"; margin=20;
+    player [label="ros2 bag play"];
+    detector [label="Узел детектора"];
+    observer [label="Наблюдатель выходов\nСтатус · расстояние · диагностика"];
+    player -> detector [label="PointCloud2 / DDS"];
+    detector -> observer [label="7 топиков / DDS"];
+  }
+  logs [label="demo_results/\nСообщения и логи", fillcolor="#E7F4F0", color="#368475"];
+  bag -> player [label="монтирование только для чтения", lhead=cluster_container];
+  script -> player [style=dashed, label="запуск", lhead=cluster_container];
+
+  observer -> logs;
+}

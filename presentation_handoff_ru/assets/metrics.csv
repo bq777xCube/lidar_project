@@ -1,8 +1,0 @@
-показатель,значение,единица,область,источник
-Крупное препятствие,98.68354684514068,м,выбранный синтетический пример,sources/v3_competition_integration.json:direct_reviewed
-Низкое препятствие поперёк пути,99.42150848853949,м,выбранный синтетический пример,sources/v3_competition_integration.json:direct_reviewed
-Тонкий подвешенный предмет,72.55873262034888,м,выбранный синтетический пример,sources/v3_competition_integration.json:direct_reviewed
-Ожидаемое обнаружение,13/21,наблюдений,выбранная проверенная выборка,sources/evaluation.json:configurations.T3
-Ожидаемое игнорирование,2/12,тревог,выбранная проверенная выборка,sources/evaluation.json:configurations.T3
-Фоновые входы,4/702,положительных,контроль разработки,sources/evaluation.json:configurations.T3
-Реальные входы,0/193,положительных,контроль разработки,sources/evaluation.json:configurations.T3

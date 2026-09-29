@@ -1,0 +1,109 @@
+{
+  "platform": "Linux ARM64 VM на Apple M4",
+  "latency_definition": "От публикации входа до завершения callback установленного узла; не до получения всеми потребителями",
+  "runs": [
+    {
+      "run": 1,
+      "point_step_bytes": 16,
+      "input_hz": 10,
+      "offered": 500,
+      "completed": 500,
+      "p95_ms": 71.6807486,
+      "max_ms": 128.365708,
+      "over_100ms": 5
+    },
+    {
+      "run": 2,
+      "point_step_bytes": 16,
+      "input_hz": 10,
+      "offered": 500,
+      "completed": 500,
+      "p95_ms": 68.15941839999998,
+      "max_ms": 106.311458,
+      "over_100ms": 2
+    },
+    {
+      "run": 3,
+      "point_step_bytes": 26,
+      "input_hz": 10,
+      "offered": 500,
+      "completed": 500,
+      "p95_ms": 70.3143729,
+      "max_ms": 138.538583,
+      "over_100ms": 4
+    },
+    {
+      "run": 4,
+      "point_step_bytes": 26,
+      "input_hz": 10,
+      "offered": 500,
+      "completed": 500,
+      "p95_ms": 74.34470864999997,
+      "max_ms": 151.110001,
+      "over_100ms": 5
+    }
+  ],
+  "max_ms": 151.110001,
+  "reviewed_detect": {
+    "hits": 13,
+    "observations": 21
+  },
+  "reviewed_ignore": {
+    "alarms": 2,
+    "observations": 12
+  },
+  "background": {
+    "positive": 4,
+    "inputs": 702
+  },
+  "real_controls": {
+    "positive": 0,
+    "inputs": 193
+  },
+  "unknown_frames": [
+    775,
+    776,
+    777,
+    778,
+    792,
+    793
+  ],
+  "scope": "Результаты итоговой конфигурации на предоставленных данных разработки; не независимый скрытый тест.",
+  "distance_definition": "Продольная координата в номинальной системе; не длина пути по кривому рельсу.",
+  "examples": [
+    {
+      "event": "E1",
+      "frame": 0,
+      "description": "Крупное препятствие",
+      "distance_m": 98.683547
+    },
+    {
+      "event": "E4",
+      "frame": 427,
+      "description": "Объект у края габарита",
+      "distance_m": 99.102107
+    },
+    {
+      "event": "E9",
+      "frame": 686,
+      "description": "Низкое препятствие поперёк пути",
+      "distance_m": 99.421508
+    },
+    {
+      "event": "E10",
+      "frame": 763,
+      "description": "Тонкий подвешенный предмет",
+      "distance_m": 72.558733
+    }
+  ],
+  "conditional_detect_gaps": 81,
+  "conditional_ignore_observations": 29,
+  "native_i7_measured": false,
+  "repeated_for_this_package": false,
+  "evidence": {
+    "qualification": "../validation/receipts/qualification.json",
+    "installed_environment": "../validation/receipts/installed_environment.json",
+    "source_metrics_sha256": "f55636814e8d7dcc2361dc9af70c3deeeadeaf5fc47743878157d45e48a3390c",
+    "source_distance_results_sha256": "b9f15f2d2b0a11bfd6984631ca69c2b0f18ef0e62b277eb6e7eeb6b125856193"
+  }
+}

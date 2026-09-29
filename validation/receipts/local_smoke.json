@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "tests": 20,
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "scope": "Локальные fixtures формата, конфигурации и ядра; без ROS/DDS и без больших эталонных облаков.",
+  "docker_rebuilt": false,
+  "native_kernel_built": false,
+  "full_dataset_regression_repeated": false
+}

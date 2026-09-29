@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="630" height="490" viewBox="0 0 630 490">
+<rect width="630" height="490" rx="8" fill="white"/>
+<defs><clipPath id="c"><rect x="95" y="24" width="510" height="390"/></clipPath></defs>
+<path d="M123.33,24V414" stroke="#EEEAF0"/>
+<text x="123.33" y="442" text-anchor="middle" font-family="Noto Sans,sans-serif" font-size="20" fill="#716879">-0,4</text>
+<path d="M350.00,24V414" stroke="#EEEAF0"/>
+<text x="350.00" y="442" text-anchor="middle" font-family="Noto Sans,sans-serif" font-size="20" fill="#716879">0</text>
+<path d="M576.67,24V414" stroke="#EEEAF0"/>
+<text x="576.67" y="442" text-anchor="middle" font-family="Noto Sans,sans-serif" font-size="20" fill="#716879">0,4</text>
+<path d="M95,414.00H605" stroke="#EEEAF0"/>
+<text x="81" y="421.00" text-anchor="end" font-family="Noto Sans,sans-serif" font-size="20" fill="#716879">2,6</text>
+<path d="M95,325.36H605" stroke="#EEEAF0"/>
+<text x="81" y="332.36" text-anchor="end" font-family="Noto Sans,sans-serif" font-size="20" fill="#716879">2,8</text>
+<path d="M95,236.73H605" stroke="#EEEAF0"/>
+<text x="81" y="243.73" text-anchor="end" font-family="Noto Sans,sans-serif" font-size="20" fill="#716879">3,0</text>
+<path d="M95,148.09H605" stroke="#EEEAF0"/>
+<text x="81" y="155.09" text-anchor="end" font-family="Noto Sans,sans-serif" font-size="20" fill="#716879">3,2</text>
+<path d="M95,59.45H605" stroke="#EEEAF0"/>
+<text x="81" y="66.45" text-anchor="end" font-family="Noto Sans,sans-serif" font-size="20" fill="#716879">3,4</text>
+<g clip-path="url(#c)">
+<circle cx="584.62" cy="43.21" r="1.5" fill="#AEA8B6" fill-opacity="0.60"/>
+<circle cx="584.62" cy="43.21" r="1.5" fill="#AEA8B6" fill-opacity="0.60"/>
+<circle cx="512.92" cy="43.45" r="1.5" fill="#AEA8B6" fill-opacity="0.60"/>
+<circle cx="512.92" cy="43.45" r="1.5" fill="#AEA8B6" fill-opacity="0.60"/>
+<circle cx="441.32" cy="43.16" r="1.5" fill="#AEA8B6" fill-opacity="0.60"/>
+<circle cx="441.32" cy="43.16" r="1.5" fill="#AEA8B6" fill-opacity="0.60"/>
+<circle cx="369.68" cy="43.28" r="1.5" fill="#AEA8B6" fill-opacity="0.60"/>
+<circle cx="369.68" cy="43.28" r="1.5" fill="#AEA8B6" fill-opacity="0.60"/>
+<circle cx="298.07" cy="43.29" r="1.5" fill="#AEA8B6" fill-opacity="0.60"/>
+<circle cx="298.07" cy="43.29" r="1.5" fill="#AEA8B6" fill-opacity="0.60"/>
+<circle cx="226.44" cy="43.00" r="1.5" fill="#AEA8B6" fill-opacity="0.60"/>
+<circle cx="226.44" cy="43.00" r="1.5" fill="#AEA8B6" fill-opacity="0.60"/>
+<circle cx="154.81" cy="42.84" r="1.5" fill="#AEA8B6" fill-opacity="0.60"/>
+<circle cx="154.81" cy="42.84" r="1.5" fill="#AEA8B6" fill-opacity="0.60"/>
+<circle cx="342.11" cy="164.12" r="6" fill="#EC007A"/>
+<circle cx="341.93" cy="234.54" r="6" fill="#EC007A"/>
+<circle cx="341.76" cy="304.93" r="6" fill="#EC007A"/>
+<polygon points="341.76,291.93 345.20,300.20 354.12,300.91 347.32,306.74 349.40,315.45 341.76,310.78 334.12,315.45 336.19,306.74 329.39,300.91 338.32,300.20" fill="#ECB334" stroke="#4B106F" stroke-width="1.8"/>
+</g>
+<path d="M95,24V414H605" fill="none" stroke="#B0A7B6" stroke-width="1.4"/>
+<text x="350.0" y="476" text-anchor="middle" fill="#716879" font-family="Noto Sans,sans-serif" font-size="20">Поперечная координата, м</text>
+<text x="26" y="219.0" text-anchor="middle" transform="rotate(-90,26,219.0)" fill="#716879" font-family="Noto Sans,sans-serif" font-size="19">Высота в номинальной системе, м</text>
+</svg>

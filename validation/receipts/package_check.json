@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "runtime_files_unchanged": 51,
+  "runtime_basis": "Предыдущий архив для жюри; код и конфигурации перенесены без изменений",
+  "local_contract_tests": 20,
+  "package_structure": "Исходники и документация; презентация и видео передаются отдельно",
+  "docker_rebuilt": false,
+  "full_cloud_regressions_rerun": false,
+  "public_links_or_form_changed": false
+}
